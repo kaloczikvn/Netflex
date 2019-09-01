@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Movies to watch">
+    <meta name="author" content="Kálóczi Kevin">
+    <title>Movie Tickets - KVN</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body class="">
+
+    <div class="movie-player">
+      <iframe src="https://www.youtube.com/embed/Lm8p5rlrSkY?autoplay=1&controls=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="movie-close">
+        <i class="fas fa-times"></i>
+      </div>
+    </div>
+
+    <div class="movie-scroll-wrapper">
+      <div class="movies-wrapper">
+        <div class="movie-wrapper"
+          data-background="img/rogue_one_2016.jpg"
+          data-play="sCVWm20fU0A"
+          data-trailer="frdj1zb9sMY"
+          data-score="7,8"
+          data-pg="12"
+          data-time="2h 13m"
+          data-year="2016"
+          data-category="Action, Adventure, Sci-Fi"
+          >
+          <img src="img/covers/rogue_one_2016.jpg" class="movie-cover">
+          <div class="movie-info-holder">
+            <h2 class="movie-title">Star Wars: Rogue One</h2>
+            <p class="movie-description">The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans.</p>
+          </div>
+        </div>
+        <div class="movie-wrapper"
+          data-background="img/cloverfield.jpg"
+          data-play="RkFcHUvyJ-k"
+          data-trailer="WKG_-UeONNw"
+          data-score="7,0"
+          data-pg="13"
+          data-time="1h 25m"
+          data-year="2008"
+          data-category="Action, Horror, Sci-Fi"
+          >
+          <img src="img/covers/cloverfield.jpg" class="movie-cover">
+          <div class="movie-info-holder">
+            <h2 class="movie-title">Cloverfield</h2>
+            <p class="movie-description">A group of friends venture deep into the streets of New York on a rescue mission during a rampaging monster attack.</p>
+          </div>
+        </div>
+        <div class="movie-wrapper selected"
+          data-background="img/interstellar_2014.jpg"
+          data-play="4Hf_XkgE1d0"
+          data-trailer="zSWdZVtXT7E"
+          data-score="8,6"
+          data-pg="12"
+          data-time="2h 49m"
+          data-year="2014"
+          data-category="Adventure, Drama, Sci-Fi"
+          >
+          <img src="img/covers/interstellar_2014.jpg" class="movie-cover">
+          <div class="movie-info-holder">
+            <h2 class="movie-title">Interstellar</h2>
+            <p class="movie-description">Interstellar chronicles the adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.</p>
+          </div>
+        </div>
+        <div class="movie-wrapper"
+          data-background="img/avengers_infinity_war.jpg"
+          data-play="ZQpWRenGF_w"
+          data-trailer="6ZfuNTqbHE8"
+          data-score="8,5"
+          data-pg="16"
+          data-time="2h 29m"
+          data-year="2018"
+          data-category="Action, Adventure, Fantasy"
+          >
+          <img src="img/covers/avengers_infinity_war.jpg" class="movie-cover">
+          <div class="movie-info-holder">
+            <h2 class="movie-title">Avengers: Infinity War</h2>
+            <p class="movie-description">The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="movie-overlay"></div>
+    <div class="movie-page" style="background: url('img/interstellar_2014.jpg');">
+    </div>
+
+    <div class="movie-content">
+      <h1>Interstellar</h1>
+      <p class="lead">Interstellar chronicles the adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.</p>
+      <ul class="movie-info">
+        <li class="score"><i class="fab fa-imdb"></i> 8,6</li>
+        <li class="pg pg-13">PG-12</li>
+        <li class="time">2h 49m</li>
+        <li class="category">Adventure, Drama, Sci-Fi</li>
+        <li class="year">2014</li>
+      </ul>
+      <div class="movie-buttons">
+        <a href="#" class="btn-prm btn-play" data-play="4Hf_XkgE1d0">
+          <i class="fas fa-play"></i> Play
+        </a>
+        <a href="#" class="btn-snd btn-trailer" data-trailer="zSWdZVtXT7E">
+          <i class="fas fa-video"></i> Watch Trailer
+        </a>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
